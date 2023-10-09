@@ -1,6 +1,6 @@
 interface Todo {
-    id?: number,
-    userId: number,
-    title: string,
-    complete: boolean
+	id?: number;
+	userId: number;
+	title: string;
+	completed: boolean;
 }

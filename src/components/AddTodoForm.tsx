@@ -1,5 +1,7 @@
 "use client";
 
+import { faUpload } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { ChangeEvent, useState } from "react";
 
 const AddTodoForm = () => {
@@ -22,9 +24,8 @@ const AddTodoForm = () => {
 				/>
 			</div>
 			<button className="submit">
-				{/* <FontAwesomeIcon icon={faUpload} /> */}
+				<FontAwesomeIcon icon={faUpload} />
 			</button>
-			{/* <button onClick={handleErrorTodo}>Error</button> */}
 		</form>
 	);
 };
